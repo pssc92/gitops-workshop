@@ -56,7 +56,7 @@ spec:
           namespacePolicy: All
         https-jellyfin:
           port: 8443
-          hostname: "jellyfin.cluster.domain"
+          hostname: "jellyfin.8rfvxu7e8f.ydhjomt.shoot.emk.fuga.cloud"
           protocol: HTTPS
           namespacePolicy: All
           mode: Terminate
@@ -65,7 +65,7 @@ spec:
             namespace: traefik
         https-whoami:
           port: 8443
-          hostname: "whoami.cluster.domain"
+          hostname: "whoami.8rfvxu7e8f.ydhjomt.shoot.emk.fuga.cloud"
           protocol: HTTPS
           namespacePolicy: All
           mode: Terminate
